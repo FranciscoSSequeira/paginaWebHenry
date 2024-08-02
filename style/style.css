@@ -20,15 +20,34 @@ h2{
 .logo{
     width: 100%;
 }
+.fotoCard{
+    width: 300px;
+    height: 300px;
+}
 .cards{
     border: 2px solid black;
     width: fit-content;
     padding: 0px 1em 1em 1em;
     border-radius: 15%;
     transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
 }
 /* hover es cuando se pasa el mouse por arriba */
 .cards:hover{
     background-color: yellow ;
-
+}
+#cards-container{
+    background-color: aqua;
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5 em;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 2em;
+    display: flex;
+    flex-direction: row; /*se puede poner en colum o row*/
+    justify-content: space-around; /*flex start, flex end, space around(todos los elementos con la misma distancia),space between, space even*/
 }

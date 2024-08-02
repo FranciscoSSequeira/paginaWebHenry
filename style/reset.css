@@ -1,0 +1,51 @@
+/* buscarlos en chatgpt */
+/* agregar las cards con imgs y ponerlos todas en un div para que las contenga */
+
+/* css
+/ Reset CSS / */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+     line-height: 1.15; /* Mejorar la legibilidad / */
+    -webkit-text-size-adjust: 100%; /* Evitar el ajuste de tamaño de texto en dispositivos móviles */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Fuente base */
+    font-size: 16px; /* Tamaño de fuente base */
+    color: #333; /* Color de texto */
+    background-color: #fff; /* Color de fondo */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal; /* Normalizar el peso de las fuentes */
+}
+
+ul, ol {
+    list-style: none; /* Eliminar estilos de lista */
+}
+
+a {
+    text-decoration: none; /* Eliminar subrayado de enlaces */
+    color: inherit; /* Heredar color del texto */
+}
+
+img {
+    max-width: 100%; /* Hacer que las imágenes sean responsivas */
+    height: auto; /* Mantener la proporción de las imágenes */
+}
+
+table {
+    border-collapse: collapse; /* Colapsar bordes de tablas */
+    width: 100%; /* Hacer que las tablas ocupen el 100% del ancho */
+}
+
+button {
+    border: none; /* Eliminar bordes de botones */
+    background: none; /* Eliminar fondo de botones */
+    cursor: pointer; /* Cambiar cursor al pasar sobre botones */
+}
